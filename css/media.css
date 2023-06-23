@@ -1,0 +1,325 @@
+.col {
+    padding: 16px;
+}
+
+.col-1 {
+    width: 8.33333%;
+}
+
+.col-2 {
+    width: 16.66666%;
+}
+
+.col-3 {
+    width: 25%;
+}
+
+.col-4 {
+    width: 33.33333%;
+}
+
+.col-5 {
+    width: 41.66666%;
+}
+
+.col-6 {
+    width: 50%;
+}
+
+.col-7 {
+    width: 58.33333%;
+}
+
+.col-8 {
+    width: 66.66666%;
+}
+
+.col-9 {
+    width: 75%;
+}
+
+.col-10 {
+    width: 83.33333%;
+}
+
+.col-11 {
+    width: 91.66666%;
+}
+
+.col-12 {
+    width: 100%;
+}
+
+/* @media (max-width: 575px) and (min-width: 300px) {
+    .header-about ul,.header-icon ul,.header-button{
+        display: none;
+    }
+    .navbar-logo{
+        width: 50%;
+    }
+    .navbar-toggle-btn{
+        font-size: 48px;
+        display: block;
+        text-align: end;
+    }
+} */
+@media (max-width: 767px) and (min-width: 300px) {
+
+    .header-about ul,
+    .header-icon ul,
+    .header-button {
+        display: none;
+    }
+
+    .navbar-logo {
+        width: 50%;
+    }
+
+    .navbar-logo span a {
+        font-size: 80px;
+    }
+
+    .navbar-toggle-btn {
+        font-size: 80px;
+        display: block;
+        text-align: end;
+    }
+
+    .banner-details h1 {
+        font-size: 150px;
+    }
+
+    .banner-details p {
+        font-size: 70px;
+    }
+
+    .banner-btn button {
+        font-size: 75px;
+    }
+
+    .features-box {
+        width: 100%;
+        text-align: center;
+    }
+
+    .fet-icon,
+    link {
+        height: 100%;
+    }
+
+    .fet-icon svg,
+    .link svg {
+        font-size: 100px;
+    }
+
+    .card-box h4 {
+        font-size: 85px;
+    }
+
+    .card-box p {
+        font-size: 65px;
+    }
+
+    .img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-content {
+        width: 100%;
+        padding-top: 60px;
+        text-align: center;
+    }
+
+    .line {
+        width: 100px;
+    }
+
+    .about-content h3 {
+        text-align: center;
+        font-size: 75px;
+    }
+
+    .about-content p {
+
+        font-size: 50px;
+    }
+
+    .card-wrapper {
+        width: 100%;
+        text-align: center;
+        display: block;
+        text-align: center;
+    }
+
+    .p-icon {
+        display: block;
+    }
+
+    .p-details h2 {
+        font-size: 55px;
+    }
+
+    .p-details p {
+        font-size: 60px;
+    }
+
+    .card-wrapper .p-icon svg {
+        font-size: 150px;
+    }
+
+    .profile-cards,
+    .tes-card {
+        width: 100%;
+    }
+
+    .protfile-mainhead h2 {
+        font-size: 85px;
+    }
+
+    .protfile-mainhead p {
+        font-size: 55px;
+    }
+
+    .profile-wrapper .p-box h4 {
+        font-size: 80px;
+    }
+
+    .profile-wrapper .p-box p {
+        font-size: 54px;
+    }
+
+    .customer h2 {
+        font-size: 80px;
+    }
+
+    .customer p {
+        font-size: 49px;
+    }
+
+    .tes-img img {
+        width: 35%;
+        height: 100%;
+    }
+
+    .tes-box h3 {
+        font-size: 80px;
+    }
+
+    .tes-box h4 {
+        font-size: 45px;
+    }
+
+    .icon-wrap span .fa-star {
+        font-size: 60px;
+    }
+
+    .form-content {
+        width: 100%;
+        text-align: center;
+    }
+    .form-content h3{
+        font-size: 80px;
+    }
+    .form-content p{
+        font-size: 60px;
+    }
+    .input-fild input{
+        font-size: 60px;
+    }
+    .link svg{
+        width: 8%;
+        height: 100%;
+        border: none;
+    }
+    .form-btn{
+        font-size: 58px;
+    }
+    .form-img {
+        width: 100%;
+        order: -1;
+        padding-bottom: 50px;
+    }
+    .footer-left{
+        width: 100%;
+    }
+    .footer-right{
+        width: 100%;
+        justify-content: center;
+    }
+    .footer-left p,.footer-right p{
+        font-size: 50px;
+        text-align: center;
+    }
+    .toggle nav ul li a {
+        font-size: 45px;
+    }
+
+    .t-header-button button {
+        font-size: 45px;
+    }
+}
+
+@media (max-width: 992px) and (min-width: 768px) {
+
+    .header-about ul,
+    .header-icon ul,
+    .header-button {
+        display: none;
+    }
+
+    .navbar-logo {
+        width: 50%;
+    }
+
+    .navbar-toggle-btn {
+        font-size: 48px;
+        display: block;
+        text-align: end;
+    }
+
+    .banner-details p {
+        font-size: 32px;
+    }
+
+    .banner-btn button {
+        font-size: 25px;
+    }
+
+    .features-box {
+        width: 50%;
+        text-align: center;
+    }
+
+    .img {
+        width: 100%;
+        text-align: center;
+    }
+
+    .about-content {
+        width: 100%;
+        padding-left: 10%;
+    }
+
+    .about-content p {
+
+        font-size: 25px;
+    }
+
+    .profile-cards,
+    .tes-card {
+        width: 50%;
+    }
+
+    .form-content {
+        width: 100%;
+    }
+
+    .form-img {
+        width: 100%;
+        order: -1;
+        padding-bottom: 32px;
+    }
+}
+
+@media (max-width: 1140px) and (min-width: 991px) {}
